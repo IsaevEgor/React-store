@@ -1,0 +1,22 @@
+.LinkRow{
+	display: flex;
+	flex: 0 1 370px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.Item{
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+}
+.Item a{
+	color: #6A983C !important;
+}
+.Item:hover{
+	text-decoration: underline;
+}
+.ItemBlack a{
+	color: #151515 !important;
+}

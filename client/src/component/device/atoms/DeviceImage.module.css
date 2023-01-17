@@ -1,0 +1,7 @@
+.Img{
+	width: 100%;
+	transition: 0.5s ease;
+}
+.Img:hover{
+	transform: scale(108%);
+}

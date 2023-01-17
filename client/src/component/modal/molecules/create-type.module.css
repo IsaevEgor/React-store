@@ -1,0 +1,22 @@
+.Input{
+	width: 100%;
+	background: #F9F9F9;
+	border: 2px solid #D1D1D1;
+	border-radius: 12px;
+	padding: 10px 20px;
+
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #A9A9A9;
+
+	outline: none;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.Input:focus{
+	border: 2px solid #6A983C;
+	color: black;
+	font-weight: 700;
+}

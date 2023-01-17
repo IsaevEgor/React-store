@@ -1,0 +1,14 @@
+.FlexBlock{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+.FlexItem{
+	width: 350px;
+}
+.FlexItem:not(:last-child){
+	margin-bottom: 20px;
+}

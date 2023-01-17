@@ -1,0 +1,57 @@
+.Form{
+	
+}
+.FormBlock{
+	background-color: rgb(245, 245, 245);
+	padding: 15px 20px;
+	border-radius: 12px;
+
+}
+.FormTitle{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 48px;
+	color: #151515;
+	text-align: center;
+
+}
+.inputBlock{
+	margin-bottom: 15px;
+}
+.inputBlockItem:not(:last-child){
+	margin-bottom: 10px;
+}
+.inputBlockItem{
+
+}
+.loginInput{
+	width: 350px;
+	background: #F9F9F9;
+	border: 1px solid #D1D1D1;
+	border-radius: 12px;
+	padding: 10px 20px;
+}
+.loginInput:focus{
+	outline: none;
+	border: 1px solid #92C064;
+}
+
+.rowTextButton{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.text{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: #151515;
+}
+.text span:hover{
+	text-decoration: underline;
+}

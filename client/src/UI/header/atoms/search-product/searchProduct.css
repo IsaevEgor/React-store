@@ -1,0 +1,103 @@
+.select-row{
+	display: flex;
+	align-items: center;
+	width: 500px;
+
+	background: #F9F9F9;
+	border: 1px solid #D1D1D1;
+	border-radius: 12px;
+	padding-right: 15px;
+
+	cursor: text;
+}
+
+.select-row__input{
+	outline: none;
+	border: none;
+	width: 100%;
+	border-radius: 12px;
+	background-color: transparent;
+	padding-left: 25px;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #A9A9A9;
+}
+.select-row__input:focus{
+	color: #151515;
+}
+
+.select-row__icon-search{
+	transform: rotate(90deg);
+	cursor: text;
+}
+
+.custom-select__control__control{
+	width: 170px !important;
+	background: transparent !important;
+	border: none !important;
+	border-radius: 0 !important;
+	cursor: pointer !important;
+}
+.custom-select__control__control::after{
+	content: '';
+	position: absolute;
+	right: 0px;
+	width: 1px;
+	height: 20px;
+	background-color: #D1D1D1;
+}
+.custom-select__control__control--is-focused{
+	border-radius: 12px !important;
+}
+
+.custom-select__control__menu{
+	width: 170px !important;
+	background: #F9F9F9 !important;
+	border: 1px solid #D1D1D1 !important;
+	border-radius: 12px !important;
+}
+
+.custom-select__input{
+
+	font-family: 'Poppins' !important;
+	font-style: normal !important;
+	font-weight: 700 !important;
+	font-size: 15px !important;
+	line-height: 22px !important;
+	color: #151515 !important;
+}
+
+.custom-select__control__single-value{
+	display: flex !important;
+
+	font-family: 'Poppins' !important;
+	font-style: normal !important;
+	font-weight: 700 !important;
+	font-size: 15px !important;
+	line-height: 22px !important;
+	color: #151515 !important;
+}
+
+.custom-select__control__placeholder{
+	position: relative !important;
+
+	font-family: 'Poppins' !important;
+	font-style: normal !important;
+	font-weight: 700 !important;
+	font-size: 15px !important;
+	line-height: 22px !important;
+	color: #151515 !important;
+}
+
+.custom-select__control__indicator-separator{
+	display: none !important;
+}
+
+.custom-select__control__indicator svg{
+	fill: #6A983C;
+
+}

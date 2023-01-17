@@ -1,0 +1,22 @@
+.Flex{
+	display: flex;
+	align-items: center;
+}
+.FlexItem{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #A9A9A9;
+}
+.FlexItem:last-child{
+	color: #151515;
+	cursor: default;
+}
+.FlexItem:not(:last-child){
+	margin-right: 10px;
+}

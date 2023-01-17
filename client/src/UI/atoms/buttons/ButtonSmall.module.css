@@ -1,0 +1,23 @@
+.button{
+	display: block;
+	background: #FFFFFF;
+	border: 2px solid #46760A;
+	border-radius: 12px;
+	padding: 8px 12px;
+	cursor: pointer;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 22px;
+	color: #151515;
+	text-align: center;
+	text-decoration: none;
+
+	transition: all 0.2s ease;
+}
+.button:hover{
+	background: #6A983C;
+	color: #FFFFFF;
+}

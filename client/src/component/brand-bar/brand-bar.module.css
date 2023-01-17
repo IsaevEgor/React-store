@@ -1,0 +1,39 @@
+.Ul{
+	padding: 0;
+}
+
+.title{
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #151515;
+	margin-bottom: 15px;
+}
+
+.item{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #151515;
+	cursor: pointer;
+	transition: 0.2s ease;
+	line-height: 150%;
+
+	border-bottom: 2px solid #b1b1b1;
+}
+.item:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.item:hover{
+	padding-left: 5px;
+	border-left: 2px solid #6A983C;
+}
+.Active{
+	padding-left: 5px;
+	border-left: 5px solid #6A983C;
+	font-weight: 700;
+}

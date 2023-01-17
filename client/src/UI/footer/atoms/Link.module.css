@@ -1,0 +1,12 @@
+.Link{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #6A983C;
+}
+.Link:hover{
+	color: #6A983C;
+	text-decoration: underline;
+}

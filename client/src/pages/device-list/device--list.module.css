@@ -1,0 +1,55 @@
+.FlexPage{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+.FlexCenter{
+	flex: 1 1 auto;
+}
+.header{
+	margin-bottom: 20px;
+}
+.breadcrumbsBlock{
+	max-width: 1200px;
+	margin: 0 auto 20px;
+	padding: 0 15px;
+}
+
+.flexBlock{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+	display: flex;
+}
+
+.flexNavigate{
+	flex: 0 1 10%;
+	margin-right: 35px;
+}
+.GridList{
+	flex: 0 1 90%;
+	display: grid;
+	height: 100%;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 10px;
+	row-gap: 10px;
+	grid-auto-flow: row;
+}
+@media (max-width: 1024px) {
+	.GridList{
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media (max-width: 768px) {
+	.GridList{
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (max-width: 550px) {
+	.GridList{
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+.DeviceItem{
+
+}

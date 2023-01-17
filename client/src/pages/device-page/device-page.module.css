@@ -1,0 +1,58 @@
+.Container{
+	max-width: 1150px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.Header{
+	margin-bottom: 20px;
+}
+.FlexContainer{
+	display: flex;
+	background: #f8f8f8;
+	border: 1px solid #D1D1D1;
+	border-radius: 12px;
+	padding: 20px;
+	margin-bottom: 20px;
+
+}
+.ImgFlexBlock{
+	flex: 0 1 30%;
+}
+.ContentFlexBlock{
+	flex: 0 1 70%;
+}
+.FlexPriceButton{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	align-self: flex-end;
+}
+
+.CharTitleBlock{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #151515;
+}
+.CharBlock{
+	background: #f8f8f8;
+	border: 1px solid #D1D1D1;
+	border-radius: 12px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.CharItem{
+	display: flex;
+	padding: 5px;
+}
+.CharItem:nth-child(2n){
+	background-color: #e0e0e0;
+}
+
+.CharTitle{
+	margin-bottom: 0;
+	flex: 0 1 50%;
+}

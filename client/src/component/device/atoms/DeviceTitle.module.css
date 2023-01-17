@@ -1,0 +1,11 @@
+.title{
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: #151515;
+}
+.title:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}

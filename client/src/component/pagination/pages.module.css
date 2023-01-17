@@ -1,0 +1,32 @@
+.flex{
+	display: flex;
+	align-items: center;
+}
+.text{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 16px;
+	color: #151515;
+	margin-right: 10px;
+}
+.flexItem{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 16px;
+	color: #151515;
+	padding: 10px 10px 8px 10px;
+	cursor: pointer;
+}
+.flexItem:not(:last-child){
+	margin-right: 5px;
+}
+.flexItem:hover{
+	background-color: aliceblue;
+}
+.flexItemActiv{
+	border-bottom: 1px solid ;
+}

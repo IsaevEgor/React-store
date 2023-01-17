@@ -1,0 +1,32 @@
+.Block {
+	background: #F9F9F9;
+}
+
+.BlockCategories {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto !important;
+	padding: 5px 10px;
+}
+
+.CategoriesItem{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 22px;
+	color: #151515;
+
+	padding: 10px 5px;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+.CategoriesItem:hover{
+	background-color: #d4d4d49f;
+}
+
+.Active{
+	background-color: #d4d4d49f;
+}
